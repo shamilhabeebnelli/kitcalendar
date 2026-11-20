@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<section class="panel login"><div class="eyebrow">Equipment desk</div><h1>Add a shared item.</h1><p class="muted">Each item is one physical unit. Give identical items distinct names.</p><form method="post">{% csrf_token %}{{ form.as_p }}<button>Add equipment</button> <a href="/">Back to board</a></form></section>{% endblock %}
