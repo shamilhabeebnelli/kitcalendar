@@ -1,0 +1,1 @@
+"""KitCalendar package."""
